@@ -34,8 +34,7 @@ if user_ip == '14.140.116.145':
      print(f"................IP {user_ip} is already whitelisted. Please disconnect the VPN and try again..................")
      sys.exit(1)
 
-env = {"dev": "beoecomdevfewa", "qa": "beoecomqafewa", "qa1": "beoecomqa1fewa", "uat": "beoecomuatnginxbocomfewa", "stage": "beoecomstagenginxbocomfewa"}
-#env = { "dev" : "beoecomdevcachemanagerbewa" }
+env = {"dev": "devfewa", "qa": "qafewa", "qa1": "qa1fewa", "uat": "uatnginxfewa", "stage": "stagenginxfewa"}
 
 for k, v in env.items():
     if k == args.env:
