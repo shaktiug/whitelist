@@ -14,7 +14,7 @@ Things you need to use the software and how to install them.
 
 1. Clone the repo
    ```sh
-   git clone https://tools.publicis.sapient.com/bitbucket/scm/booc/devops.git
+   git clone https://github.com/shaktiug/whitelist
    ```
 
 2. Cd to the script directory
